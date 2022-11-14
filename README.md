@@ -118,10 +118,81 @@ X = X[: , 1:]
 **Sigmoid Function**
 The Sigmoid Function is an S-shaped curve that can take any real-values number and map it into a value between the range of 0 and 1, but never exactly at those limits.
 
+Dateset:
 ``` python
-
-
+User ID	Gender	Age	EstimatedSalary	Purchased
+0	15624510	Male	19	19000	0
+1	15810944	Male	35	20000	0
+2	15668575	Female	26	43000	0
+3	15603246	Female	27	57000	0
+4	15804002	Male	19	76000	0
+...	...	...	...	...	...
+395	15691863	Female	46	41000	1
+396	15706071	Male	51	23000	1
+397	15654296	Female	50	20000	1
+398	15755018	Male	36	33000	0
+399	15594041	Female	49	36000	1
 ```
 
+``` python
+X = dataset.iloc[:, [1, 2]].values
+y = dataset.iloc[:, 4].values
+
+# return
+array([['Male', 19],
+       ['Male', 35],
+       ['Female', 26],
+       ['Female', 27],
+       ['Male', 19],
+       ['Male', 27],
+       ['Female', 27],
+       ['Female', 32],
+       ['Male', 25],
+       ['Female', 35],
+       ['Female', 26],
+       ['Female', 26],
+       ['Male', 20],
+       ['Male', 32],
+       ['Male', 18],
+       ['Male', 29],
+       ['Male', 47],
+       ['Male', 45],
+       ['Male', 46], 
+       ......])
+```
+
+```python
+from sklearn.preprocessing import LabelEncoder
+labelencoder_X = LabelEncoder()
+X[ : , 0] = labelencoder_X.fit_transform(X[ : , 0])
+X
+# return
+array([[1, 19],
+       [1, 35],
+       [0, 26],
+       [0, 27],
+       [1, 19],
+       [1, 27],
+       [0, 27],
+       [0, 32],
+       [1, 25],
+       [0, 35],
+       [0, 26],
+       ......])
+```
+
+
+```python
+new_data = pd.get_dummies(dataset.Gender)
+merged = pd.concat([new_data, dataset], axis = 1)
+new_data
+```
+
+Then, 
+1. Splitting the dataset into the Training set and Test set
+2. Logistic Regression
+3. Predicting the Test set results
+4. Confusion Matrix
+5. Accuracy Score
 
 ---
