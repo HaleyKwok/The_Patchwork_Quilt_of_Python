@@ -196,3 +196,30 @@ Then,
 5. Accuracy Score
 
 ---
+## Day 15 SVM
+Kernal
+1. Linear
+2. Rbf
+3. Sigmoid
+4. Polynomial
+
+Gamma
+1. Auto
+2. Scale
+
+Regularization
+1. C
+
+Margin
+1. Soft
+2. Hard
+
+
+
+
+
+
+
+
+
+---
