@@ -1,4 +1,4 @@
-# The_Hodgepodge_of_Python challenge
+# The_Python_Challenge
 
 ## Day 1 Data Preprocessing
 
