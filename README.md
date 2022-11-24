@@ -1,4 +1,4 @@
-# The_Hodgepodge_of_Python challenge
+# The_Python_Challenge
 
 ## Day 1 Data Preprocessing
 
@@ -196,6 +196,7 @@ Then,
 5. Accuracy Score
 
 ---
+<<<<<<< HEAD
 ## Day 15 SVM
 Kernal
 1. Linear
@@ -223,3 +224,5 @@ Margin
 
 
 ---
+=======
+>>>>>>> 1dc39c354e81ea783f682c229da4d9fd99780c8e
