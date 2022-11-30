@@ -1,4 +1,26 @@
-# The_Python_Challenge
+This is a page for recording Kaggle exercises and Python challenges.
+
+TABLE OF CONTENT
+- [Notes For Kaggle Exercises](#notes-for-kaggle-exercises)
+- [Notes For The\_Python\_Challenge](#notes-for-the_python_challenge)
+  - [Day 1 Data Preprocessing](#day-1-data-preprocessing)
+  - [Day 2 Linear Regression](#day-2-linear-regression)
+  - [Day 3 Multiple Linear Regression](#day-3-multiple-linear-regression)
+  - [Day 4-6 Logistic Regression](#day-4-6-logistic-regression)
+  - [Day 15 SVM](#day-15-svm)
+
+
+
+---
+# Notes For Kaggle Exercises
+
+
+
+
+
+
+---
+# Notes For The_Python_Challenge
 
 ## Day 1 Data Preprocessing
 
@@ -196,7 +218,6 @@ Then,
 5. Accuracy Score
 
 ---
-<<<<<<< HEAD
 ## Day 15 SVM
 Kernal
 1. Linear
@@ -216,13 +237,6 @@ Margin
 2. Hard
 
 
-
-
-
-
-
-
-
 ---
-=======
->>>>>>> 1dc39c354e81ea783f682c229da4d9fd99780c8e
+
+
