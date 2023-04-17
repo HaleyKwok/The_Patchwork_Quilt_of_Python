@@ -14,7 +14,66 @@ TABLE OF CONTENT
 ---
 # Notes For Kaggle Exercises
 
+Very commonly used modules:
 
+```python
+import pandas as pd 
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import StandardScaler
+
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+
+
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import classification_report
+from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_curve
+from sklearn.metrics import precision_recall_curve
+from sklearn.metrics import average_precision_score
+from sklearn.metrics import f1_score
+from sklearn.metrics import precision_score
+from sklearn.metrics import recall_score
+from sklearn.metrics import auc
+from sklearn.metrics import log_loss
+from sklearn.metrics import brier_score_loss
+from sklearn.metrics import matthews_corrcoef
+from sklearn.metrics import cohen_kappa_score
+from sklearn.metrics import make_scorer
+
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import RandomizedSearchCV
+from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import KFold
+from sklearn.model_selection import RepeatedStratifiedKFold
+from sklearn.model_selection import RepeatedKFold
+from sklearn.model_selection import cross_validate
+from sklearn.model_selection import cross_val_predict
+from sklearn.model_selection import learning_curve
+from sklearn.model_selection import validation_curve
+from sklearn.model_selection import ShuffleSplit
+from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.model_selection import GroupKFold
+from sklearn.model_selection import GroupShuffleSplit
+from sklearn.model_selection import LeaveOneGroupOut
+from sklearn.model_selection import LeavePGroupsOut
+from sklearn.model_selection import PredefinedSplit
+from sklearn.model_selection import TimeSeriesSplit
+from sklearn.model_selection import check_cv
+from sklearn.model_selection import ParameterGrid
+from sklearn.model_selection import ParameterSampler
+from sklearn.model_selection import BaseCrossValidator
+from sklearn.model_selection import _split
+from sklearn.model_selection import _search
+from sklearn.model_selection import _validation
+```
 
 
 
@@ -235,7 +294,6 @@ Regularization
 Margin
 1. Soft
 2. Hard
-
 
 ---
 
